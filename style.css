@@ -1,6 +1,80 @@
-body{
-    background-color: black;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  margin: 0;
+  color: #1c3550;
+  background-color: #eef6fb;
 }
+
+.site-header {
+  background: linear-gradient(135deg, #0b5e9e, #38a3d1);
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px 30px;
+  border-bottom: 6px solid #073b5f;
+}
+
+.site-title {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  font-style: italic;
+  margin: 8px 0 0;
+  opacity: 0.9;
+}
+
+nav {
+  background-color: #073b5f;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: #cdeffd;
+  text-decoration: none;
+  margin: 0 18px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 720px;
+  margin: 30px auto;
+  padding: 0 20px;
+  line-height: 1.7;
+}
+
+section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px 26px;
+  margin-bottom: 24px;
+  box-shadow: 0 2px 6px rgba(7, 59, 95, 0.15);
+}
+
+blockquote {
+  border-left: 5px solid #38a3d1;
+  margin: 24px 0;
+  padding: 8px 20px;
+  background-color: #f0f9ff;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  background-color: #073b5f;
+  color: #cdeffd;
+}
+
+footer a {
+  color: #ffffff;
+}
+
